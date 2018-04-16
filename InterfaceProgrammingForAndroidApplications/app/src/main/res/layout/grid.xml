@@ -97,7 +97,7 @@
         android:layout_margin="5sp">
 
         <Button
-            android:id="@+id/bn_back"
+            android:id="@+id/grid_bn_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="返回" />

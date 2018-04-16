@@ -56,6 +56,7 @@
         android:layout_marginBottom="5sp">
 
         <Button
+            android:id="@+id/relative_bn_back"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="返回"/>
