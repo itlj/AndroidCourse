@@ -15,20 +15,22 @@ import android.widget.Button;
  */
 public class TableActivity extends Activity {
 
-//    private Button bn_back = (Button)findViewById(R.id.table_bn_back);
+    private Button bn_back;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.table);
 
-//        bn_back.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(TableActivity.this,MainActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        bn_back = (Button)findViewById(R.id.table_bn_back);
+
+        bn_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TableActivity.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

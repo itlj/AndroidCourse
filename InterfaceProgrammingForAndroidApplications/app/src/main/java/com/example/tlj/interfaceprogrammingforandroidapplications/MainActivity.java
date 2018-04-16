@@ -6,10 +6,12 @@ import android.view.View;
 import android.widget.Button;
 
 /**
-* @date 2018/4/16
-* @author TLJ
-* @param
-*/
+ * Data : 2018/4/16
+ *
+ * @author : TLJ
+ * @parameter :
+ * @return :
+ */
 
 public class MainActivity extends Activity {
 
