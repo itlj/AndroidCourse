@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/line_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -15,19 +16,22 @@
             android:id="@+id/bn_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="水平布局"/>
+            android:text="水平布局"
+            android:onClick="HorizontalClick"/>
 
         <Button
             android:id="@+id/bn_vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="垂直布局" />
+            android:text="垂直布局"
+            android:onClick="VerticalClick"/>
 
         <Button
             android:id="@+id/bn_left"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="靠左方向" />
+            android:text="靠左对齐"
+            android:onClick="LeftClick"/>
 
     </LinearLayout>
 
