@@ -10,28 +10,38 @@
 
         <ImageView
             android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="320sp"
+            android:layout_height="320sp"
+            android:layout_gravity="center"
+            android:background="#0f0"/>
 
         <ImageView
             android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="280sp"
+            android:layout_height="280sp"
+            android:layout_gravity="center"
+            android:background="#0ff" />
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="240sp"
+            android:layout_height="240sp"
+            android:layout_gravity="center"
+            android:background="#ff0" />
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="200sp"
+            android:layout_height="200sp"
+            android:layout_gravity="center"
+            android:background="#f0f" />
 
         <ImageView
             android:id="@+id/imageView5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="160sp"
+            android:layout_height="160sp"
+            android:layout_gravity="center"
+            android:background="#f00" />
 
     </FrameLayout>
 
